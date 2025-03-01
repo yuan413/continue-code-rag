@@ -1,4 +1,4 @@
-from voyageai_code_embed import VoyageAICodeEmbeddingFunction
+from src.embed.voyageai_code_embed import VoyageAICodeEmbeddingFunction
 
 import lancedb
 from lancedb.pydantic import LanceModel, Vector

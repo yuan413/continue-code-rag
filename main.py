@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-import pytest
 
 app = FastAPI()
 

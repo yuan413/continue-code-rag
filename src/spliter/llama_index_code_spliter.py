@@ -87,7 +87,7 @@ def read_all_files(root_dir):
     return file_num
 
 def split_content(content, lang):
-    split_contents = CodeSplitter.from_defaults(lang).split_text(content)
+    split_contents = CodeSplitter.from_defaults(lang, 20, 6, 1200).split_text(content)
     print(len(split_contents))
     return split_contents
 

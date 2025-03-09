@@ -24,6 +24,7 @@ tree-sitter = "^0.20.0"
 tree-sitter-languages = "^1.9.1"
 gitpython = "^3.1.44"
 tenacity = "^9.0.0"
+tencentcloud-sdk-python-tmt = "^3.0.1334"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2"

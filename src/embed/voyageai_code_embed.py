@@ -39,7 +39,8 @@ class VoyageAICodeEmbeddingFunction(TextEmbeddingFunction):
             truncation=True,
             output_dimension=self._ndims
         )
-        return rs.embeddings
+        result = rs.embeddings
+        return result
 
     @weak_lru(maxsize=1)
     def get_embedding_model(self):

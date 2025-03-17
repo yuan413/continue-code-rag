@@ -19,7 +19,7 @@ db.drop_table("test_code_x_embed")
 table = db.create_table("test_code_x_embed", schema=TextModel)
 
 device = torch.device("cpu")
-max_length=32768
+max_length = 32768
 model = AutoModel.from_pretrained('/Users/01428674/Ai/model-hub/SFR-Embedding-Code-2B_R', trust_remote_code=True,
                                   low_cpu_mem_usage=False).to(device)
 
